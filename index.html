@@ -9,45 +9,31 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ font-size: 2em; }
+}
+
 body, html {
   height: 100%;
   line-height: 1.8;
 }
-.bgimg-1 {
- background-image: url("https://i.ibb.co/hXnyZZb/Screen-Shot-2021-12-01-at-5-09-59-PM.png");
- background-size: cover;
- height: 600px;
- width: 100%;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- margin-bottom: 32px;
-}
-
-.banner > p {
- color: white;
- padding: 10px;
-
-}
-
-@media (max-width: 576px) {
-  .bgimg-1 {
-    background-image: url('https://i.ibb.co/hXnyZZb/Screen-Shot-2021-12-01-at-5-09-59-PM.png');
-    align-items: flex-start;
-    height: 400px;
-  }
-}
 
 /* Full height image header */
- /* .bgimg-1 {
+.bgimg-1 {
 	width: calc(100vw - 100px);
   height: 100vh;
   background-position: center center;
   background-size: cover;
   background-image: url("https://i.ibb.co/hXnyZZb/Screen-Shot-2021-12-01-at-5-09-59-PM.png");
 
-} */
+}
 
 .w3-bar .w3-button {
   padding: 16px;
