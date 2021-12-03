@@ -9,15 +9,29 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-@media screen and (max-width: 1020px) {
-  #container, #header, #content, #footer {
-    float: none;
-    width: auto;
+.banner {
+    background-image: url('https://pixboost.com/api/2/img/https://ipatchrepair.com/logo.png/resize?size=200&auth=MTYxNDcyOTgzNg__');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
   }
- #subtitle, #share, #slider, #sidebar{
-    display:none;
+
+  .banner > p {
+    color: white;
+    padding: 10px;
   }
-  p{ font-size: 2em; }
+
+@media (max-width: 576px) {
+  .banner {
+    background-image: url('https://pixboost.com/api/2/img/https://ipatchrepair.com/logo.png/resize?size=200&auth=MTYxNDcyOTgzNg__');
+    align-items: flex-start;
+    height: 400px;
+  }
 }
 
 body, html {
