@@ -28,8 +28,6 @@ body, html {
 }
 
 
-
-
 .w3-bar .w3-button {
   padding: 16px;
 }
@@ -296,7 +294,9 @@ body, html {
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:  (818) 213-9205 </p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: youbreakipatch@gmail.com</p>
     <br>
-    <form action="/action_page.php" target="_blank">
+    <form action="https://formsubmit.io/youbreakipatch@gmail.com" method="POST">
+      <input type= "hidden" name="_captcha" value="false">
+      <input type= "hidden" name="_subject" value="New email!">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
